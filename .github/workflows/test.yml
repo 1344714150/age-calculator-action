@@ -11,6 +11,6 @@ jobs:
       - uses: frdmn/age-calculator-action@main
         id: birthday
         with:
-          date: '1991-08-17'
+          date: '1997-10-27'
       - run: |
           echo "Authors age in years: ${{ steps.birthday.outputs.age }}"
